@@ -1,0 +1,38 @@
+*{
+  border-radius: 10px;
+  border: none;
+}
+
+window {
+  font-size: 18px;
+  font-family: "Cascadia Code PL";
+  background-color: rgba(50,50,50,0.85);
+  color: #b1b1b1;
+}
+
+#entry {
+  padding: .25em;
+}
+
+#entry:selected {
+  background-color: #bbccdd;
+  background: linear-gradient(90deg, #9193ff, #000000);
+  color: #333333;
+}
+
+#text:selected {
+  color: #001275;
+}
+
+#input {
+  background-color: rgba(50,50,50,0.5);
+  color: #a0a0a0;
+  padding: .25em;
+}
+
+image {
+  color: #c0c0c0;
+  margin-left: .25em;
+  margin-right: .25em;
+}
+
